@@ -6,8 +6,15 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3AD6ADB630B973E10007C137 /* LJ_Icon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6ADB530B973E10007C137 /* LJ_Icon.icon */; };
+		3AD6ADE430CCCE320007C137 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3AD6ADE330CCCE320007C137 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3A88FECF30A1AEBC002A01C3 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD6ADB530B973E10007C137 /* LJ_Icon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = LJ_Icon.icon; sourceTree = "<group>"; };
+		3AD6ADE330CCCE320007C137 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -49,6 +56,8 @@
 				3A88FEDF30A1BBE6002A01C3 /* ViewModels */,
 				3A88FEDE30A1BBB8002A01C3 /* Models */,
 				3A88FED130A1AEBC002A01C3 /* LearningApp */,
+				3AD6ADB530B973E10007C137 /* LJ_Icon.icon */,
+				3AD6ADE330CCCE320007C137 /* README.md */,
 				3A88FED030A1AEBC002A01C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +132,8 @@
 		3A88FECD30A1AEBC002A01C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				3AD6ADE430CCCE320007C137 /* README.md in Resources */,
+				3AD6ADB630B973E10007C137 /* LJ_Icon.icon in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -258,8 +269,9 @@
 		3A88FEDB30A1AEBD002A01C3 /* Debug configuration for PBXNativeTarget "LearningApp" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = LJ_Icon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -289,8 +301,9 @@
 		3A88FEDC30A1AEBD002A01C3 /* Release configuration for PBXNativeTarget "LearningApp" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = LJ_Icon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;

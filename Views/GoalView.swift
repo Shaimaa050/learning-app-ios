@@ -104,7 +104,7 @@ struct GoalView: View {
     }
     
     private func status(for date: Date) -> LearningDayStatus? {
-        goal.days.first { day in
+        activeDays.first { day in
             Calendar.current.isDate(day.date, inSameDayAs: date)
         }?.status
     }
@@ -401,7 +401,7 @@ struct GoalView: View {
                             .font(.title2)
                             .foregroundStyle(.orange)
                         
-                        Text("\(goal.days.filter { $0.status == .learned }.count) days")
+                        Text("\(activeDays.filter { $0.status == .learned }.count) days")
                             .font(.headline)
                         
                         Text("Learned")
@@ -420,7 +420,7 @@ struct GoalView: View {
                             .font(.title2)
                             .foregroundStyle(.cyan)
                         
-                        Text("\(goal.days.filter { $0.status == .frozen }.count) days")
+                        Text("\(activeDays.filter { $0.status == .frozen }.count) days")
                             .font(.headline)
                         
                         Text("Freezed")
