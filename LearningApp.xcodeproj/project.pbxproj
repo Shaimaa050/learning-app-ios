@@ -16,6 +16,21 @@
 			path = LearningApp;
 			sourceTree = "<group>";
 		};
+		3A88FEDE30A1BBB8002A01C3 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A88FEDF30A1BBE6002A01C3 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3A88FEE030A1BBF5002A01C3 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +45,9 @@
 		3A88FEC630A1AEBC002A01C3 = {
 			isa = PBXGroup;
 			children = (
+				3A88FEE030A1BBF5002A01C3 /* Views */,
+				3A88FEDF30A1BBE6002A01C3 /* ViewModels */,
+				3A88FEDE30A1BBB8002A01C3 /* Models */,
 				3A88FED130A1AEBC002A01C3 /* LearningApp */,
 				3A88FED030A1AEBC002A01C3 /* Products */,
 			);
@@ -58,6 +76,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				3A88FED130A1AEBC002A01C3 /* LearningApp */,
+				3A88FEDE30A1BBB8002A01C3 /* Models */,
+				3A88FEDF30A1BBE6002A01C3 /* ViewModels */,
+				3A88FEE030A1BBF5002A01C3 /* Views */,
 			);
 			name = LearningApp;
 			productName = LearningApp;

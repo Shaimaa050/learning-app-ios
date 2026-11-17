@@ -1,24 +1,24 @@
+////
+////  ContentView.swift
+////  LearningApp
+////
+////  Created by Shaima Basaleh on 29/05/1448 AH.
+////
 //
-//  ContentView.swift
-//  LearningApp
+//import SwiftUI
 //
-//  Created by Shaima Basaleh on 29/05/1448 AH.
+//struct ContentView: View {
+//    var body: some View {
+//        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundStyle(.tint)
+//            Text("Hello, world!")
+//        }
+//        .padding()
+//    }
+//}
 //
-
-import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}

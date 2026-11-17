@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct LearningAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingView()
         }
+        .modelContainer(for: [
+            LearningGoal.self,
+            LearningDay.self
+        ])
     }
 }
